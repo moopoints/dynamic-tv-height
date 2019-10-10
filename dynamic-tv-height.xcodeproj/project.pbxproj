@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F55474EE234E82EA003B44FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55474ED234E82EA003B44FC /* AppDelegate.swift */; };
+		F55474F0234E82EA003B44FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55474EF234E82EA003B44FC /* SceneDelegate.swift */; };
+		F55474F2234E82EA003B44FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55474F1234E82EA003B44FC /* ViewController.swift */; };
+		F55474F5234E82EA003B44FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55474F3234E82EA003B44FC /* Main.storyboard */; };
+		F55474F7234E82EC003B44FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55474F6234E82EC003B44FC /* Assets.xcassets */; };
+		F55474FA234E82EC003B44FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55474F8234E82EC003B44FC /* LaunchScreen.storyboard */; };
+		F5547505234E82EC003B44FC /* dynamic_tv_heightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5547504234E82EC003B44FC /* dynamic_tv_heightTests.swift */; };
+		F5547510234E82EC003B44FC /* dynamic_tv_heightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F554750F234E82EC003B44FC /* dynamic_tv_heightUITests.swift */; };
+		F554751E234E8300003B44FC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F554751D234E8300003B44FC /* TableViewCell.swift */; };
+		F5547520234E8303003B44FC /* TokensCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F554751F234E8303003B44FC /* TokensCollectionView.swift */; };
+		F5547522234EA0B5003B44FC /* TokenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5547521234EA0B5003B44FC /* TokenCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5547501234E82EC003B44FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F55474E2234E82EA003B44FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F55474E9234E82EA003B44FC;
+			remoteInfo = "dynamic-tv-height";
+		};
+		F554750C234E82EC003B44FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F55474E2234E82EA003B44FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F55474E9234E82EA003B44FC;
+			remoteInfo = "dynamic-tv-height";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F55474EA234E82EA003B44FC /* dynamic-tv-height.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dynamic-tv-height.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55474ED234E82EA003B44FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F55474EF234E82EA003B44FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F55474F1234E82EA003B44FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F55474F4234E82EA003B44FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F55474F6234E82EC003B44FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F55474F9234E82EC003B44FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F55474FB234E82EC003B44FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5547500234E82EC003B44FC /* dynamic-tv-heightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dynamic-tv-heightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5547504234E82EC003B44FC /* dynamic_tv_heightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamic_tv_heightTests.swift; sourceTree = "<group>"; };
+		F5547506234E82EC003B44FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F554750B234E82EC003B44FC /* dynamic-tv-heightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dynamic-tv-heightUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F554750F234E82EC003B44FC /* dynamic_tv_heightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamic_tv_heightUITests.swift; sourceTree = "<group>"; };
+		F5547511234E82EC003B44FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F554751D234E8300003B44FC /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F554751F234E8303003B44FC /* TokensCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokensCollectionView.swift; sourceTree = "<group>"; };
+		F5547521234EA0B5003B44FC /* TokenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F55474E7234E82EA003B44FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55474FD234E82EC003B44FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5547508234E82EC003B44FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F55474E1234E82EA003B44FC = {
+			isa = PBXGroup;
+			children = (
+				F55474EC234E82EA003B44FC /* dynamic-tv-height */,
+				F5547503234E82EC003B44FC /* dynamic-tv-heightTests */,
+				F554750E234E82EC003B44FC /* dynamic-tv-heightUITests */,
+				F55474EB234E82EA003B44FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F55474EB234E82EA003B44FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F55474EA234E82EA003B44FC /* dynamic-tv-height.app */,
+				F5547500234E82EC003B44FC /* dynamic-tv-heightTests.xctest */,
+				F554750B234E82EC003B44FC /* dynamic-tv-heightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F55474EC234E82EA003B44FC /* dynamic-tv-height */ = {
+			isa = PBXGroup;
+			children = (
+				F55474ED234E82EA003B44FC /* AppDelegate.swift */,
+				F55474EF234E82EA003B44FC /* SceneDelegate.swift */,
+				F55474F1234E82EA003B44FC /* ViewController.swift */,
+				F554751D234E8300003B44FC /* TableViewCell.swift */,
+				F5547521234EA0B5003B44FC /* TokenCell.swift */,
+				F554751F234E8303003B44FC /* TokensCollectionView.swift */,
+				F55474F3234E82EA003B44FC /* Main.storyboard */,
+				F55474F6234E82EC003B44FC /* Assets.xcassets */,
+				F55474F8234E82EC003B44FC /* LaunchScreen.storyboard */,
+				F55474FB234E82EC003B44FC /* Info.plist */,
+			);
+			path = "dynamic-tv-height";
+			sourceTree = "<group>";
+		};
+		F5547503234E82EC003B44FC /* dynamic-tv-heightTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5547504234E82EC003B44FC /* dynamic_tv_heightTests.swift */,
+				F5547506234E82EC003B44FC /* Info.plist */,
+			);
+			path = "dynamic-tv-heightTests";
+			sourceTree = "<group>";
+		};
+		F554750E234E82EC003B44FC /* dynamic-tv-heightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F554750F234E82EC003B44FC /* dynamic_tv_heightUITests.swift */,
+				F5547511234E82EC003B44FC /* Info.plist */,
+			);
+			path = "dynamic-tv-heightUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F55474E9234E82EA003B44FC /* dynamic-tv-height */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5547514234E82EC003B44FC /* Build configuration list for PBXNativeTarget "dynamic-tv-height" */;
+			buildPhases = (
+				F55474E6234E82EA003B44FC /* Sources */,
+				F55474E7234E82EA003B44FC /* Frameworks */,
+				F55474E8234E82EA003B44FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dynamic-tv-height";
+			productName = "dynamic-tv-height";
+			productReference = F55474EA234E82EA003B44FC /* dynamic-tv-height.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F55474FF234E82EC003B44FC /* dynamic-tv-heightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5547517234E82EC003B44FC /* Build configuration list for PBXNativeTarget "dynamic-tv-heightTests" */;
+			buildPhases = (
+				F55474FC234E82EC003B44FC /* Sources */,
+				F55474FD234E82EC003B44FC /* Frameworks */,
+				F55474FE234E82EC003B44FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5547502234E82EC003B44FC /* PBXTargetDependency */,
+			);
+			name = "dynamic-tv-heightTests";
+			productName = "dynamic-tv-heightTests";
+			productReference = F5547500234E82EC003B44FC /* dynamic-tv-heightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F554750A234E82EC003B44FC /* dynamic-tv-heightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F554751A234E82EC003B44FC /* Build configuration list for PBXNativeTarget "dynamic-tv-heightUITests" */;
+			buildPhases = (
+				F5547507234E82EC003B44FC /* Sources */,
+				F5547508234E82EC003B44FC /* Frameworks */,
+				F5547509234E82EC003B44FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F554750D234E82EC003B44FC /* PBXTargetDependency */,
+			);
+			name = "dynamic-tv-heightUITests";
+			productName = "dynamic-tv-heightUITests";
+			productReference = F554750B234E82EC003B44FC /* dynamic-tv-heightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F55474E2234E82EA003B44FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Jan Senderek";
+				TargetAttributes = {
+					F55474E9234E82EA003B44FC = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					F55474FF234E82EC003B44FC = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F55474E9234E82EA003B44FC;
+					};
+					F554750A234E82EC003B44FC = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F55474E9234E82EA003B44FC;
+					};
+				};
+			};
+			buildConfigurationList = F55474E5234E82EA003B44FC /* Build configuration list for PBXProject "dynamic-tv-height" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F55474E1234E82EA003B44FC;
+			productRefGroup = F55474EB234E82EA003B44FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F55474E9234E82EA003B44FC /* dynamic-tv-height */,
+				F55474FF234E82EC003B44FC /* dynamic-tv-heightTests */,
+				F554750A234E82EC003B44FC /* dynamic-tv-heightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F55474E8234E82EA003B44FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55474FA234E82EC003B44FC /* LaunchScreen.storyboard in Resources */,
+				F55474F7234E82EC003B44FC /* Assets.xcassets in Resources */,
+				F55474F5234E82EA003B44FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55474FE234E82EC003B44FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5547509234E82EC003B44FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F55474E6234E82EA003B44FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55474F2234E82EA003B44FC /* ViewController.swift in Sources */,
+				F5547520234E8303003B44FC /* TokensCollectionView.swift in Sources */,
+				F554751E234E8300003B44FC /* TableViewCell.swift in Sources */,
+				F5547522234EA0B5003B44FC /* TokenCell.swift in Sources */,
+				F55474EE234E82EA003B44FC /* AppDelegate.swift in Sources */,
+				F55474F0234E82EA003B44FC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55474FC234E82EC003B44FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5547505234E82EC003B44FC /* dynamic_tv_heightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5547507234E82EC003B44FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5547510234E82EC003B44FC /* dynamic_tv_heightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5547502234E82EC003B44FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F55474E9234E82EA003B44FC /* dynamic-tv-height */;
+			targetProxy = F5547501234E82EC003B44FC /* PBXContainerItemProxy */;
+		};
+		F554750D234E82EC003B44FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F55474E9234E82EA003B44FC /* dynamic-tv-height */;
+			targetProxy = F554750C234E82EC003B44FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F55474F3234E82EA003B44FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55474F4234E82EA003B44FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F55474F8234E82EC003B44FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55474F9234E82EC003B44FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5547512234E82EC003B44FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5547513234E82EC003B44FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5547515234E82EC003B44FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59X4Y9UZMB;
+				INFOPLIST_FILE = "dynamic-tv-height/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.senderekllc.dynamic-tv-height";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5547516234E82EC003B44FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59X4Y9UZMB;
+				INFOPLIST_FILE = "dynamic-tv-height/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.senderekllc.dynamic-tv-height";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5547518234E82EC003B44FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59X4Y9UZMB;
+				INFOPLIST_FILE = "dynamic-tv-heightTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.senderekllc.dynamic-tv-heightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dynamic-tv-height.app/dynamic-tv-height";
+			};
+			name = Debug;
+		};
+		F5547519234E82EC003B44FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59X4Y9UZMB;
+				INFOPLIST_FILE = "dynamic-tv-heightTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.senderekllc.dynamic-tv-heightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dynamic-tv-height.app/dynamic-tv-height";
+			};
+			name = Release;
+		};
+		F554751B234E82EC003B44FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59X4Y9UZMB;
+				INFOPLIST_FILE = "dynamic-tv-heightUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.senderekllc.dynamic-tv-heightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dynamic-tv-height";
+			};
+			name = Debug;
+		};
+		F554751C234E82EC003B44FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59X4Y9UZMB;
+				INFOPLIST_FILE = "dynamic-tv-heightUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.senderekllc.dynamic-tv-heightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dynamic-tv-height";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F55474E5234E82EA003B44FC /* Build configuration list for PBXProject "dynamic-tv-height" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5547512234E82EC003B44FC /* Debug */,
+				F5547513234E82EC003B44FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5547514234E82EC003B44FC /* Build configuration list for PBXNativeTarget "dynamic-tv-height" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5547515234E82EC003B44FC /* Debug */,
+				F5547516234E82EC003B44FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5547517234E82EC003B44FC /* Build configuration list for PBXNativeTarget "dynamic-tv-heightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5547518234E82EC003B44FC /* Debug */,
+				F5547519234E82EC003B44FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F554751A234E82EC003B44FC /* Build configuration list for PBXNativeTarget "dynamic-tv-heightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F554751B234E82EC003B44FC /* Debug */,
+				F554751C234E82EC003B44FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F55474E2234E82EA003B44FC /* Project object */;
+}
