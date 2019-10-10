@@ -54,12 +54,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        let cell = TableViewCell()
-        cell.configure(with: data[indexPath.row])
-        print("heightForRowAt, cell.collectionView.intrinsticContentSize.height = ", cell.collectionView.intrinsicContentSize.height)
-        var height = data[indexPath.row].returnHeight()
-        height += cell.collectionView.intrinsicContentSize.height
-        return height
+        return data[indexPath.row].returnHeight()
     }
 }
 
@@ -73,8 +68,14 @@ struct MyData {
         var height = CGFloat()
         let topBottomMargin: CGFloat = 24
         let titleHeight: CGFloat = 18
-        let tagsMargin: CGFloat = 12
+        let tagsMargin: CGFloat = 16
         
+        let cell = TableViewCell()
+        cell.configure(with: self)
+        print("")
+        print("MyData, returnHeight, cell.collectionView.intrinsticContentSize.height = ", cell.collectionView.intrinsicContentSize.height)
+        
+        height += cell.collectionView.intrinsicContentSize.height
         height += topBottomMargin
         height += titleHeight
         height += tagsMargin
