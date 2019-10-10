@@ -26,9 +26,8 @@ class TableViewCell: UITableViewCell {
         self.data = data
         self.collectionView.reloadData()
         self.collectionView.layoutIfNeeded()
-        self.data.collectionViewHeight = self.collectionView.intrinsicContentSize.height
         print("")
-        print("TableViewCell, configure, collectionView.intrinsicContentSize.height = ", self.collectionView.intrinsicContentSize.height)
+        print("TableViewCell, intrinsicContentSize.height = ", self.collectionView.intrinsicContentSize.height)
     }
     
     func setupViews() {

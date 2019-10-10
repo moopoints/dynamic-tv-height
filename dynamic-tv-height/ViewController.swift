@@ -73,7 +73,7 @@ struct MyData {
         let cell = TableViewCell()
         cell.configure(with: self)
         print("")
-        print("MyData, returnHeight, cell.collectionView.intrinsticContentSize.height = ", cell.collectionView.intrinsicContentSize.height)
+        print("MyData, intrinsticContentSize.height = ", cell.collectionView.intrinsicContentSize.height)
         
         height += cell.collectionView.intrinsicContentSize.height
         height += topBottomMargin
