@@ -26,6 +26,7 @@ class TableViewCell: UITableViewCell {
         self.data = data
         self.collectionView.reloadData()
         self.collectionView.layoutIfNeeded()
+        self.data.collectionViewHeight = self.collectionView.intrinsicContentSize.height
         print("tableViewCell, collectionView.intrinsicContentSize.height = ", self.collectionView.intrinsicContentSize.height)
     }
     

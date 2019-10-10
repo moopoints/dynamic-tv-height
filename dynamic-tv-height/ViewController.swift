@@ -54,7 +54,12 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return data[indexPath.row].returnHeight()
+        let cell = TableViewCell()
+        cell.configure(with: data[indexPath.row])
+        print("heightForRowAt, cell.collectionView.intrinsticContentSize.height = ", cell.collectionView.intrinsicContentSize.height)
+        var height = data[indexPath.row].returnHeight()
+        height += cell.collectionView.intrinsicContentSize.height
+        return height
     }
 }
 
@@ -62,16 +67,17 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 struct MyData {
     var title = String()
     var tokenStrings = [String]()
+    var collectionViewHeight = CGFloat()
     
     func returnHeight() -> CGFloat {
         var height = CGFloat()
         let topBottomMargin: CGFloat = 24
         let titleHeight: CGFloat = 18
         let tagsMargin: CGFloat = 12
+        
         height += topBottomMargin
         height += titleHeight
         height += tagsMargin
-        height += 64
         return height
     }
 }
